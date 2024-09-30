@@ -1,0 +1,9 @@
+version: 'J'
+services: 
+	app: 
+		build: 
+			context: .
+			dockerfile: Dockerfile2
+		container_name: psimage3
+	stdin_open: true
+	tty: true
